@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/login.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo1">Cyber Sécurité</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="../../index.html">Acceuil</a>
+                </li>
+                <li>
+                    <a href="../HTML/challenge.html">Challenge</a>
+                </li>
+                <li>
+                    <a href="../HTML/cyber.html">Cyber</a>
+                </li>
+                <li>
+                    <a href="#" class="active">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar")
+            navBar.classList.toggle("active")
+        }
+    </script>
+
+
+<section class="b-body">
+    <div class="container">
+        <div class="box">
+            <div class="cover"></div>
+            <div class="shadow"></div>
+            <div class="content">
+                <div class="form">
+                    <h3 class="logo"><i class="fa-solid fa-key"></i></h3>
+                    <h2>Se Connecter</h2>
+                    <div class="inputBox">
+                        <input type="text" required>
+                        <i class="fa-solid fa-user"></i>
+                        <span>Username</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="password" required>
+                        <i class="fa-solid fa-lock"></i>
+                        <span>Password</span>
+                    </div>
+                    <div class="links">
+                        <a href="#"><i class="fa-solid fa-question"></i> Mot de passe oublié</a>
+                        <a href="#"><i class="fa-solid fa-user-plus"></i> S'enregistrer</a>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" value="Login">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+</body>
+</html>

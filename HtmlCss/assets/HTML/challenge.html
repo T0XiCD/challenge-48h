@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/challenge.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Cyber Sécurité</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="../../index.html">Acceuil</a>
+                </li>
+                <li>
+                    <a href="#" class="active">Challenge</a>
+                </li>
+                <li>
+                    <a href="../HTML/cyber.html">Cyber</a>
+                </li>
+                <li>
+                    <a href="../HTML/login.html">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar")
+            navBar.classList.toggle("active")
+        }
+    </script>
+
+    <div class="container">
+        <div data-tooltip="Enigme 1" class="button">
+            <div class="button-wrapper">
+                <div class="text"></div>
+                    <span class="icon">
+                        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" height="2em" width="2em" role="img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="none"></path></svg>
+                    </span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container2">
+        <button data-text="Awesome" class="button2">
+            <span class="actual-text">&nbsp;ChercheBoutton&nbsp;</span>
+            <span class="hover-text" aria-hidden="true">&nbsp;ChercheBoutton&nbsp;</span>
+        </button>
+    </div>
+    
+    <div class="container3">
+        <button class="button3">
+            <div>
+              <span>
+                <p></p>
+              </span>
+            </div>
+            <div>
+              <span>
+                <p>button3</p>
+              </span>
+            </div>
+          </button>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/CSS/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Cyber Sécurité</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="" class="active">Acceuil</a>
+                </li>
+                <li>
+                    <a href="assets/HTML/challenge.html">Challenge</a>
+                </li>
+                <li>
+                    <a href="assets/HTML/cyber.html">Cyber</a>
+                </li>
+                <li>
+                    <a href="assets/HTML/login.html">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar")
+            navBar.classList.toggle("active")
+        }
+    </script>
+
+
+
+
+    <div class="cardd">
+    <article class="card">
+        <div class="temporary_text">
+            <img src="assets/img/pexels-pixabay-60504.jpg" alt="">
+        </div>
+        <div class="card_content">
+            <span class="card_title"></span>
+            <span class="card_subtitle"></span>
+            <p class="card_description">Le site "Cyber Sécurité" propose des défis de type casse-tête en matière de sécurité informatique pour une utilisation pédagogique. Les joueurs sont plongés dans des situations de sécurité informatique fictives et doivent résoudre des énigmes. Les défis permettent aux joueurs d'acquérir des connaissances pratiques en matière de sécurité informatique et de mettre en pratique leurs compétences en résolvant des problèmes concrets.</p>
+        </div>
+    </article>
+
+    </div>
+
+</body>
+</html>
